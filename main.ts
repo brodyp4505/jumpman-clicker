@@ -2,7 +2,7 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
     info.changeScoreBy(1)
 })
 info.onScore(100, function () {
-    game.setGameOverMessage(true, "You are pregnant!")
+    game.setGameOverMessage(true, "Congratulations!")
     game.setGameOverPlayable(true, music.melodyPlayable(music.zapped), false)
     game.gameOver(true)
 })
